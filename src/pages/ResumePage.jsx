@@ -5,7 +5,7 @@ import Resume from '../components/Resume';
 const ResumePage = () => {
 	return (
 		<div>
-			<h2>Resume</h2>
+			
 			<Resume />
 		</div>
 	);

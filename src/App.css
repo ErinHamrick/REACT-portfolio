@@ -46,6 +46,7 @@ footer {
 	justify-content: center;
 	min-height: 100vh;
 	margin: 0 auto;
+	max-width: 80%;
 }
 
 .heading {
@@ -71,15 +72,22 @@ footer {
 	align-items: center;
 }
 
-.projectLinks {
+.projectLinks,
+#resumeLink {
 	text-decoration: none;
-	color: black;
+	color: rgb(28, 49, 100);
 	margin: 10px;
 	transition: color 0.3s;
 }
 
-.projectLinks:hover {
+.projectLinks:hover,
+#resumeLink:hover {
 	color: rgb(98, 97, 97);
+}
+
+#resumeLinkDiv {
+	text-align: center;
+padding-top: 10px;
 }
 
 .contactContainer {
@@ -90,10 +98,11 @@ footer {
 	flex-wrap: wrap;
 }
 
-.customInput {
-	background-color: #225b71;
+.customInput, button {
+	background-color: #213D63;
 	color: white;
 }
+
 
 button,
 textarea,

@@ -28,6 +28,7 @@ function NavLinks() {
 			))}
 		</ul>
 	);
+	
 }
 
 export default NavLinks;

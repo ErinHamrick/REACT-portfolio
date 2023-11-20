@@ -6,8 +6,7 @@ function About() {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            <hr />
-            <br />            
+                        <br />            
             <h2>About Me</h2>
             <br />
             <p>

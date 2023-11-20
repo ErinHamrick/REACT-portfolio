@@ -9,6 +9,7 @@ function App() {
 	return (
 		<>
 			<Header />
+			<hr />
 			<main className='mx-3'>
 				<Outlet />
 			</main>
