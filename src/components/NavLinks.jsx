@@ -4,7 +4,7 @@ function NavLinks() {
 	const currentPage = useLocation().pathname;
 
 	const links = [
-		{ to: '/', label: 'Home' },
+		// { to: '/', label: 'Home' },
 		{ to: '/About', label: 'About Me' },
 		{ to: '/Portfolio', label: 'Portfolio' },
 		{ to: '/Contact', label: 'Contact' },

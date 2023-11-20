@@ -70,12 +70,12 @@ const FullResume = () => {
 				<div className='linksContainer'>
 					<a
 						className='projectLinks'
-						href='github.com/joseph-s-foster/Mischief-Managed'>
+						href='https://github.com/joseph-s-foster/Mischief-Managed'>
 						Mischief Managed Repository
 					</a>{' '}
 					<a
 						className='projectLinks'
-						href='https://mischief-managed-04c91ebdf0c9.herokuapp'>
+						href='https://mischief-managed-04c91ebdf0c9.herokuapp.com/'>
 						Mischief Managed Live Link
 					</a>
 				</div>

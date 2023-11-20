@@ -87,7 +87,7 @@ footer {
 
 #resumeLinkDiv {
 	text-align: center;
-padding-top: 10px;
+	padding-top: 10px;
 }
 
 .contactContainer {
@@ -96,18 +96,28 @@ padding-top: 10px;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+	max-width: 400px;
+	margin: auto;
+	text-align: center;
 }
 
-.customInput, button {
-	background-color: #213D63;
+.form-group {
+	margin-bottom: 15px}
+
+.customInput,
+button {
+	background-color: #213d63;
 	color: white;
 }
-
+.formgroup label {
+	font-size: 1rem;
+}
 
 button,
 textarea,
 input {
 	border-radius: 5px;
+	font-size: 1rem;
 }
 .profContainer {
 	display: flex;

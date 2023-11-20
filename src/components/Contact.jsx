@@ -65,7 +65,7 @@ const Contact = () => {
 						className='customInput'
 					/>
 				</div>
-				<br />
+				{/* <br /> */}
 				<div className='form-group'>
 					<label>Email Address:</label>
 					<br />
@@ -78,7 +78,7 @@ const Contact = () => {
 						className='customInput'
 					/>
 				</div>
-				<br />
+				{/* <br /> */}
 				<div className='form-group'>
 					<label>Message:</label>
 					<br />
