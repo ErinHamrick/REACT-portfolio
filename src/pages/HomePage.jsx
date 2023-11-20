@@ -1,7 +1,7 @@
 import React from 'react';
 import About from './About';
 
-function Home() {
+function HomePage() {
 	return (
 		<div>
 			<About />
@@ -10,4 +10,4 @@ function Home() {
 	);
 }
 
-export default Home;
+export default HomePage;

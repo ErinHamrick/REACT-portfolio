@@ -1,6 +1,6 @@
 // Resume.jsx
 import React from 'react';
-import Resume from './Resume'; // Make sure to import your Resume component
+import Resume from '../components/Resume';
 
 const ResumePage = () => {
 	return (
