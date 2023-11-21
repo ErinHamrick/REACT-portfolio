@@ -1,6 +1,6 @@
 // FullResumePage.js
 import React from 'react';
-import FullResume from '../components/fullResume';
+import FullResume from '../components/FullResume';
 
 const FullResumePage = () => {
   return (
