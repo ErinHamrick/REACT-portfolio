@@ -4,7 +4,8 @@ const Image =  () => {
     return (
         <div id="profilePic">
             <img 
-            src="/Erin-portfolio-pic.jpg"
+             src={process.env.PUBLIC_URL + "/Erin-portfolio-pic.jpg"}
+            // src="/Erin-portfolio-pic.jpg"
             alt="smiling selfie" 
             />
         </div>
