@@ -5,7 +5,7 @@ const FullResume = () => {
 	return (
 		<div className='resume-container'>
 			<section>
-				<hr />
+				
 				Nashville, TN | erin.hamrick76@gmail.com | 615-887-1814 |
 				github.com/ErinHamrick
 				<hr />
