@@ -35,6 +35,7 @@ Special thanks to [Jessica Roots](https://jessicaroots.com) for providing the ba
 ## Preview/Link
 ![Project Screenshot](PortfolioScreenshot.png)
 
+[Live Link](https://erinhamrickportfolio.netlify.app)
 
 ## License
 
