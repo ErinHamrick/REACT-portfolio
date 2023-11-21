@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import App from './App';
 import Error from './components/Error';
