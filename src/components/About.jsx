@@ -10,6 +10,14 @@ function About() {
 					<div className='col-md-12'>
 						<br />
 						<br />
+						<div id="profilePic">
+            <img 
+            src="/Erin-portfolio-pic.jpg"
+            alt="smiling selfie" 
+			id='selfie'
+            />
+        </div>
+		<br /><br />
 						<p>
 							Hello! I'm Erin Hamrick, a passionate web developer with a
 							focus on full-stack development. I enjoy creating

@@ -2,62 +2,53 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css'
+import './App.css';
 import App from './App';
 import Error from './components/Error';
 import { createRoot } from 'react-dom/client';
-// import Contact from './components/Contact';
+import ContactPage from './pages/ContactPage';
 import About from './components/About';
-// import Portfolio from './components/Portfolio';
-import Resume from './components/Resume';
+import ResumePage from './pages/ResumePage';
+import FullResumePage from './pages/fullResumePage';
+import PortfolioPage from './pages/PortfolioPage';
+import HomePage from './pages/HomePage';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <App />,
-    errorElement: <Error />,
-    children: [
-      {
-        index: true,
-        element: <About />, // Set the default page to About for the home page
-      },
-      {
-        path: '/About',
-        element: <About />,
-      },
-    //   {
-    //     path: '/Portfolio',
-    //     element: <Portfolio />,
-    //   },
-    //   {
-    //     path: '/Contact',
-    //     element: <Contact />,
-    //   },
-      {
-        path: '/Resume',
-        element: <Resume />,
-      },
-    ],
-  },
+	{
+		path: '/',
+		element: <App />,
+		errorElement: <Error />,
+		children: [
+			{
+				index: true,
+				element: <About />, // Set the default page to About for the home page
+			},
+			{
+				path: '/About',
+				element: <About />,
+			},
+			  {
+			    path: '/Portfolio',
+			    element: <PortfolioPage />,
+			  },
+			{
+				path: '/Contact',
+				element: <ContactPage />,
+			},
+			{
+				path: '/Resume',
+				element: <ResumePage />,
+			},
+			{
+				path: '/FullResume',
+				element: <FullResumePage />,
+			},
+		],
+	},
 ]);
 
-// Render the application using ReactDOM.createRoot
+// Render the application using  createRoot
 createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router} />
+	<RouterProvider router={router} />
 );
-
-
-
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
-// import App from './App.jsx';
-// import './index.css';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// // import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-
-// ReactDOM.createRoot(document.getElementById('root')).render(
-// 	<React.StrictMode>
-// 		<App />
-// 	</React.StrictMode>
-// );

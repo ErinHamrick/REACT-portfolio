@@ -39,6 +39,12 @@ footer {
 	text-decoration: none;
 	color: black;
 }
+
+#selfie {
+	width: 25%;
+	border-radius: 50%;
+}
+
 .resume-container {
 	display: flex;
 	flex-direction: column;
@@ -72,6 +78,20 @@ footer {
 	align-items: center;
 }
 
+.portfolio-container {
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.projects-container {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 .projectLinks,
 #resumeLink {
 	text-decoration: none;
@@ -83,6 +103,11 @@ footer {
 .projectLinks:hover,
 #resumeLink:hover {
 	color: rgb(98, 97, 97);
+}
+
+.project-image {
+	width: 250px;
+	height: 130px;
 }
 
 #resumeLinkDiv {
@@ -102,7 +127,8 @@ footer {
 }
 
 .form-group {
-	margin-bottom: 15px}
+	margin-bottom: 15px;
+}
 
 .customInput,
 button {

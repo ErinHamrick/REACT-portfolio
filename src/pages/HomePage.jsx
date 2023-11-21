@@ -1,6 +1,6 @@
 import React from 'react';
-import Image from '../components/image';
-import Contact from '../components/Contact';
+import About from '../components/About';
+import Image from '../components/Image';
 
 function HomePage() {
 	return (
