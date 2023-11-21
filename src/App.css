@@ -13,6 +13,10 @@ body {
 	height: 100%;
 }
 
+hr {
+	border: solid 1px rgb(204, 215, 227);
+}
+
 .navigation {
 	margin-top: 30px;
 	margin-bottom: 20px;
