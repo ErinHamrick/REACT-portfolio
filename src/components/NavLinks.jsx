@@ -12,11 +12,11 @@ function NavLinks() {
 	];
 
 	return (
-		<ul className='nav'>
+		<ul className='navigation'>
 			{links.map((link, index) => (
 				<li
 					key={index}
-					className='nav-item'>
+					className='navItem'>
 					<Link
 						to={link.to}
 						className={
