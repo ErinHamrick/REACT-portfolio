@@ -24,21 +24,21 @@ body {
 .nav .nav-item {
 	margin-right: 10px;
 }
-
+/* 
 .nav-link {
 	text-decoration: none;
 	color: black;
-}
+} */
 
 footer {
 	margin-top: 30px;
 	text-align: center;
 }
 
-.social-links #github {
+/* .social-links #github {
 	text-decoration: none;
 	color: black;
-}
+} */
 
 #selfie {
 	width: 25%;
@@ -84,6 +84,10 @@ footer {
 	text-align: center;
 }
 
+.portfolio-container #portfolioHeader {
+	margin-top: 5%;
+}
+
 .projects-container {
 	display: flex;
 	flex-direction: row;
@@ -92,22 +96,25 @@ footer {
 	justify-content: center;
 }
 
-.projectLinks,
-#resumeLink {
+
+.nav-link, .projectLinks,
+#resumeLink, #github, #linkedIn {
 	text-decoration: none;
 	color: rgb(28, 49, 100);
 	margin: 10px;
 	transition: color 0.3s;
 }
 
-.projectLinks:hover,
-#resumeLink:hover {
+.nav-link:hover, .projectLinks:hover,
+#resumeLink:hover,
+#github:hover, #linkedIn:hover {
 	color: rgb(98, 97, 97);
 }
 
 .project-image {
 	width: 250px;
 	height: 130px;
+	border-radius: 10px;
 }
 
 #resumeLinkDiv {

@@ -19,7 +19,7 @@ function About() {
         </div>
 		<br /><br />
 						<p>
-							Hello! I'm Erin Hamrick, a passionate web developer with a
+							Hello! I'm Erin, a passionate web developer with a
 							focus on full-stack development. I enjoy creating
 							responsive and user-friendly web applications using the
 							latest technologies. My technical skills include

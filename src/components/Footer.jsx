@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 
 
 function Footer() {
@@ -11,8 +11,9 @@ function Footer() {
             <div className="social-links">
               <a href="https://github.com/ErinHamrick" id='github' target="_blank" rel="noopener noreferrer">
                 {/* <i className="fab fa-github"></i> */}
-                GITHUB
+                GitHub
               </a>
+              <a href="https://www.linkedin.com/in/erin-hamrick-1a2814279/" id='linkedIn'>LinkedIn</a>
               {/* Add links to other social media platforms */}
             </div>
           </div>

@@ -48,7 +48,8 @@ const PortfolioPage = () => {
 	return (
 		<>
 			<div className='portfolio-container'>
-				<h1>Portfolio</h1>
+				<h1 id='portfolioHeader'>Portfolio</h1>
+				<br />
 				<div className='projects-container'>
 				{projectData.map((project) => (
 					<Project
