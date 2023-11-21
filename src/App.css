@@ -6,11 +6,10 @@ body {
 	font-family: 'Exo', sans-serif;
 	font-size: 1.5rem;
 	font-weight: 500;
-	/* background-color: #367279 ; */
 	background-image: url('/portfolio-background-header-53082_1080x675.jpg');
 	background-size: cover;
 	background-position: center;
-	/* background-repeat: no-repeat; */
+	background-repeat: no-repeat;
 	height: 100%;
 }
 
