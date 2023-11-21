@@ -9,7 +9,7 @@ import { createRoot } from 'react-dom/client';
 import ContactPage from './pages/ContactPage';
 import About from './components/About';
 import ResumePage from './pages/ResumePage';
-import FullResumePage from './pages/fullResumePage';
+import FullResumePage from './pages/FullResumePage';
 import PortfolioPage from './pages/PortfolioPage';
 import HomePage from './pages/HomePage';
 
