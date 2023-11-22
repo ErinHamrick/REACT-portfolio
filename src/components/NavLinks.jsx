@@ -5,7 +5,7 @@ function NavLinks() {
 
 	const links = [
 		// { to: '/', label: 'Home' },
-		{ to: '/About', label: 'About Me' },
+		{ to: '/About', label: 'About' },
 		{ to: '/Portfolio', label: 'Portfolio' },
 		{ to: '/Contact', label: 'Contact' },
 		{ to: '/Resume', label: 'Resume' },
