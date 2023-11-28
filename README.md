@@ -33,7 +33,7 @@ This is my personal portfolio project, showcasing my skills, projects, and exper
 Special thanks to [Jessica Roots](https://jessicaroots.com) for providing the background image used in this project.
 
 ## Preview/Link
-![Project Screenshot](PortfolioScreenshot.png)
+![Project Screenshot](/public/PortfolioScreenshot.png)
 
 [Live Link](https://erinhamrickportfolio.netlify.app)
 
