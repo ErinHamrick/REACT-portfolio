@@ -15,6 +15,7 @@ function Footer() {
               </a>
               <a href="https://www.linkedin.com/in/erin-hamrick-1a2814279/" id='linkedIn'>LinkedIn</a>
               {/* Add links to other social media platforms */}
+              <a href="mailto:erin.hamrick76@gmail.com" className='nav-link'>erin.hamrick76@gmail.com</a>
             </div>
           </div>
         </div>

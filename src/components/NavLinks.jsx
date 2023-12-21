@@ -7,7 +7,7 @@ function NavLinks() {
 		// { to: '/', label: 'Home' },
 		{ to: '/About', label: 'About' },
 		{ to: '/Portfolio', label: 'Portfolio' },
-		{ to: '/Contact', label: 'Contact' },
+		// { to: '/Contact', label: 'Contact' },
 		{ to: '/Resume', label: 'Resume' },
 	];
 

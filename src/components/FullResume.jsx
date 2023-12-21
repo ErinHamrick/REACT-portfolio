@@ -5,7 +5,6 @@ const FullResume = () => {
 	return (
 		<div className='resume-container'>
 			<section>
-				
 				Nashville, TN | erin.hamrick76@gmail.com | 615-887-1814 |
 				github.com/ErinHamrick
 				<hr />
@@ -13,14 +12,31 @@ const FullResume = () => {
 
 			<section>
 				<h2 className='heading'>Summary</h2>
-				Front-End Web Developer with a strong passion for creating engaging
-				user experiences. Particularly enthusiastic about CSS styling and
-				design, ensuring visually appealing and responsive interfaces.
-				Recently graduated from Vanderbilt University's Full Stack Web Dev
-				Bootcamp, dedicated to crafting seamless and visually appealing user
-				interfaces.
+				Enthusiastic Front-End Web Developer with a passion for creating
+				engaging user experiences. Proficient in CSS styling and design,
+				dedicated to ensuring visually appealing and responsive interfaces.
+				Combines a background in medical transcription with a life-long
+				dedication to learning. Known for creativity, problem-solving and a
+				drive for crafting user-friend applications. Recently graduated from
+				Vanderbilt University’s Full Stack Web Dev Bootcamp.
+				{/* Front-End Web Developer with a strong passion for creating engaging user
+				experiences. Particularly enthusiastic about CSS styling and design,
+				ensuring visually appealing and responsive interfaces. Recently
+				graduated from Vanderbilt University's Full Stack Web Dev Bootcamp,
+				dedicated to crafting seamless and visually appealing user
+				interfaces. */}
 			</section>
 
+			<section>
+				<h2 className='heading'>Technical Skills</h2>
+				<span className='subHeading'>Technical Languages:</span>{' '}
+				<span>HTML, CSS, JavaScript</span> <br />
+				<span className='subHeading'>Related Technologies: </span>
+				<span>
+					Git, Node, Express, mySQL, <br /> Apollo/GraphQL,
+					MongoDB/Compass, React, Heroku, Netlify
+				</span>
+			</section>
 			<section>
 				<h2 className='heading'>Projects</h2>
 				<h3 className='heading'>Tasty Jams </h3>
@@ -28,151 +44,148 @@ const FullResume = () => {
 					<a
 						className='projectLinks'
 						href='https://github.com/ErinHamrick/tasty-jams'>
-						Tasty Jams repository
+						Repository
 					</a>{' '}
 					<a
 						className='projectLinks'
 						href='https://erinhamrick.github.io/tasty-jams/'>
-						Tasty Jams Live Link
+						Live Link
 					</a>
 				</div>
 				<p>
-					“Tasty Jams” is a music rating app that allows users to rate
-					songs on a scale of one to five. The app uses the Spotify API to
-					pull songs from the Billboard Top 100 playlist, and the Wikipedia
-					API to provide more information about the songs. The app is built
-					using HTML, CSS, and JavaScript, and utilizes the Materialize CSS
-					library for advanced styling.
+					<ul>
+						<li>
+							"Tasty Jams" is a music rating app that allows users to
+							rate songs on a scale of one to five. Integrated Spotify
+							API for BillboardTop 100 songs and utilized Wikipedia API
+							for additional song information.
+						</li>
+						<li>
+							As the primary UI developer, I crafted the user interface
+							and styling.
+						</li>
+						<li>
+							Technologies utilized include HTML, CSS, JavaScript,
+							Spotify API, Wikipedia API and Materialize;
+						</li>
+					</ul>
 				</p>
-				<h3 className='heading'>Weather App </h3>
-				<div className='linksContainer'>
-					<a
-						className='projectLinks'
-						href='https://github.com/ErinHamrick/WeatherApp'>
-						{' '}
-						Weather App repository
-					</a>{' '}
-					<a
-						className='projectLinks'
-						href='https://erinhamrick.github.io/WeatherApp/'>
-						Weather App Live Link
-					</a>
-				</div>
-				<p>
-					Weather App allows users to search for any city and view the
-					current conditions and a 5-day forecast. Each search is saved to
-					a button at the bottom of the page for quick access, and the page
-					can be cleared with a single click. The app uses multiple weather
-					APIs to provide accurate and up-to-date information.{' '}
-				</p>
+
 				<h3 className='heading'>Mischief-Managed</h3>
 
 				<div className='linksContainer'>
 					<a
 						className='projectLinks'
 						href='https://github.com/joseph-s-foster/Mischief-Managed'>
-						Mischief Managed Repository
+						Repository
 					</a>{' '}
 					<a
 						className='projectLinks'
 						href='https://mischief-managed-04c91ebdf0c9.herokuapp.com/'>
-						Mischief Managed Live Link
+						Live Link
 					</a>
 				</div>
 				<p>
-					Mischief-Managed is a Harry Potter book progress tracker that
-					allows users to log their completion percentage for each book.
-					The application provides trivia facts at each 25% milestone.
+					<ul>
+						<li>
+							"Mischief Managed" is a Harry Potter book progress tracker,
+							allowing users to log completion percentages and receive
+							trivia facts at 25% milestones.
+						</li>
+						<li>
+							Primarily involved in front-end development, including page
+							structure and styling. Assisted in writing server routes
+							for the back end.
+						</li>
+						<li>
+							Technologies utilized includ HTML, CSS, JavaScript, RESTful
+							API, SQL and Heroku.
+						</li>
+					</ul>
 				</p>
-			</section>
-
-			<section>
-				<h2 className='heading'>Technical Skills</h2>
-				<br />
-				<ul>
-					Front-End Development:{' '}
-					<ul>
-						<li> DOM Manipulation</li> <li>jQuery </li> <li>React</li>
-					</ul>
-					<br />
-					Back-End Development:{' '}
-					<ul>
-						<li>Creating RESTful APIs </li> <li>Node.js </li>{' '}
-						<li>MySQL </li>
-						<li>NoSQL (MongoDB) </li>
-						<li>Express.js </li>
-						<li>GraphQL</li>
-					</ul>
-					<br />
-					Data Handling:
-					<ul>
-						<li>JSON </li>{' '}
-						<li>AJAX (Asynchronous JavaScript and JSON) </li>{' '}
-						<li>Version Control: Git </li>{' '}
-						<li>Command Line: Terminal Commands </li>
-					</ul>
-				</ul>
-			</section>
-
-			<section>
-				<h2 className='heading'>Technical Languages</h2>
-				<ul>
-					<li>Programming: JavaScript</li>
-					<li>Markup: HTML</li>
-					<li>Styling: CSS</li>
-				</ul>
-			</section>
-
-			<section>
-				<h2 className='heading'>Related Technologies</h2>
-				<ul>
-					<li>Heroku</li>
-					<li>Insomnia</li>
-					<li>MongoDB Compass</li>
-					<li>PWAs</li>
-				</ul>
-			</section>
-
-			<section>
-				<h2 className='heading'>Work History</h2>
-				<h3 className='subHeading'>Organization</h3>
+				<h3 className='heading'>To Be Frank</h3>
+				<div className='linksContainer'>
+					<a
+						className='projectLinks'
+						href='https://github.com/mstrnes2/to-be-frank'>
+						Repository
+					</a>
+					<a
+						className='projectLinks'
+						href='https://to-be-frank-9e501319d50a.herokuapp.com/'>
+						Live Link
+					</a>
+				</div>
 				<p>
-					Kentucky-Tennessee SDA Conference <br />
-					Nashville, TN
+					<ul>
+						<li>
+							"To Be Frank" is a web application designed to match users
+							with their desired fast-food hotdog. After logging in,
+							users answer a series of questions and the profile page
+							displays quiz results with a link to place an order.
+						</li>
+						<li>
+							Assisted in crafting the user interface and styling.
+							Developed React components and pages.
+						</li>
+						<li>
+							This application utilizes HTML, CSS, JavaScript, React,
+							GraphQL and Heroku.
+						</li>
+					</ul>
 				</p>
-				<h3 className='subHeading'>Residential Property Manager</h3>
+			</section>
+
+			<section>
+				<h2 className='heading'>Experience</h2>
+				<span className='subHeading'>
+					Residential Property Manager{' '}
+				</span>{' '}
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<span> 2021 - Present </span>
+				<br />
+				<span className='subHeading'>
+					{' '}
+					Kentucky-Tennessee SDA Conference
+				</span>{' '}
+				&nbsp;&nbsp;&nbsp; <span>Nashville, TN</span>
+				<p>
+					As a Residential Property Manager, I oversee a portfolio of 11
+					residential units, comprising single-family homes. My
+					responsibilities include promptly responding to tenant inquiries,
+					managing the entire rental process from advertising to lease
+					agreements, and coordinating maintenance and repairs with vendors
+					and contractors. I maintain accurate financial records and
+					prepare monthly reports.
+				</p>
+				<h3 className='subHeading'>Key Accomplishments: </h3>
 				<ul>
 					<li>
-						Manage a portfolio of 11 residential units, single-family
-						homes.
-					</li>
-					<li>Respond to tenant inquiries promptly and professionally.</li>
-					<li>
-						Handle all aspects of the rental process, from advertising and
-						showings to lease agreements and move-in/move-out procedures.
+						Sucessfully managed a portfolio of residential properties,
+						ensuring long-term success.
 					</li>
 					<li>
-						Oversee and coordinate maintenance and repairs, coordinating
-						with vendors and contractors.
+						Demonstrated excellent verbal and written communication
+						skills.
 					</li>
 					<li>
-						Maintain accurate financial records and prepare monthly
-						reports.
+						Exhibited strong organizational and time management abilities.
 					</li>
+					<li>Independently handled all aspects of the rental process.</li>
 				</ul>
-				<h3 className='subHeading'>Skills and Outcomes</h3>
-				<ul>
-					<li>
-						Proven ability to successfully manage a portfolio of
-						residential properties long-term.
-					</li>
-					<li>Excellent verbal and written communication skills.</li>
-					<li>Strong organizational and time-management skills.</li>
-					<li>Ability to work indepenedently and as part of a team.</li>
-					<li>
-						Comprehensive knowledge of all aspects of the rental process
-					</li>
-				</ul>
+			</section>
+
+			<section>
+				<h2 className='heading'>Education</h2>
+				<span className='subHeading'>
+					Full Stack Web Development Book Camp Certificate:{' '}
+				</span>{' '}
+				&nbsp; <span> Vanderbilt University, Nashville, TN</span>
+				<p>
+					A 24-week intensive program focused on gaining technical
+					programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap,
+					Node.js, MySQL, MongoDB, Express.js, GraphQL and React.
+				</p>
 			</section>
 		</div>
 	);

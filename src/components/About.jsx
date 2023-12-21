@@ -20,10 +20,10 @@ function About() {
 		<br /><br />
 						<p>
 							Hello! I'm Erin, a passionate web developer with a
-							focus on full-stack development. I enjoy creating
+							focus on front-end development. I enjoy creating
 							responsive and user-friendly web applications using the
 							latest technologies. My technical skills include
-							proficiency in JavaScript, React, Node.js, and more. I am
+							proficiency in HTML, CSS, JavaScript, React, Node.js, and more. I am
 							committed to continuous learning and staying updated on
 							industry trends. Let's connect and discuss exciting
 							opportunities!
