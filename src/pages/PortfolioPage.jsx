@@ -6,8 +6,8 @@ const PortfolioPage = () => {
 			id: 1,
 			image: '/portfolio1.jpeg',
 			title: 'Tasty Jams',
-			github: 'https://github.com/ErinHamrick/tasty-jams',
-			link: 'https://erinhamrick.github.io/tasty-jams/',
+			github: 'https://github.com/ErinHamrick/TastyJams2',
+			link: 'https://erinhamrick.github.io/tastyJams2',
 		},
 		{
 			id: 2,
