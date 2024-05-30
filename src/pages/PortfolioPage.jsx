@@ -7,7 +7,7 @@ const PortfolioPage = () => {
 			image: '/portfolio1.jpeg',
 			title: 'Tasty Jams',
 			github: 'https://github.com/ErinHamrick/TastyJams2',
-			link: 'https://erinhamrick.github.io/tastyJams2',
+			link: 'https://tastyjams2.netlify.app'
 		},
 		{
 			id: 2,
